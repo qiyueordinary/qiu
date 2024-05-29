@@ -1,0 +1,8 @@
+prefix=/home/wind/catkin_ws/devel
+
+Name: turtle_follow
+Description: Description of turtle_follow
+Version: 0.0.0
+Cflags: -I/home/wind/catkin_ws/src/turtle_follow/include
+Libs: -L${prefix}/lib -lturtle_follow
+Requires: geometry_msgs roscpp tf turtlesim
